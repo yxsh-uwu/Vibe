@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
+import {prisma} from "@/lib/db";
 
-const Page=()=>{
+const Page = ()=>{
+  
+
   return (
     <div>
-      <Button>
-        Click Me
-      </Button>
     </div>
   );
 }
